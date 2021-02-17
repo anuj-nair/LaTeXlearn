@@ -1,2 +1,2 @@
 # LaTeX Learn
-Basics Of LaTeX
+Basics of LaTeX
