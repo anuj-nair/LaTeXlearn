@@ -1,0 +1,9 @@
+run the commands in this order
+pdflatex 07_An_article_with_citations.tex 
+bibtex 07_Bibliography.bib 
+pdflatex 07_An_article_with_citations.tex 
+pdflatex 07_An_article_with_citations.tex 
+
+OR
+
+check out the 07l series
