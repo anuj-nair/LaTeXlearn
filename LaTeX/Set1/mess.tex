@@ -1,0 +1,86 @@
+\documentclass{article}
+
+\author{Anuj Nair} 
+\title{My First {\LaTeX} Document}
+\date{Last Monday}
+
+\begin{document}
+
+\maketitle
+
+\section{Tutorial 1 Begin}
+
+\subsection{Introduction}
+
+This is line one
+This just continues
+
+This is after one return  
+
+
+\subsection{Numbering}
+
+\subsection{Formatting}
+
+This is normal text. \textbf{This is bold text!}
+
+\textit{This is italic}
+
+\emph{This is Emphatic}
+
+\underline{Here is Underline}
+
+\subsubsection{Sub Subsection}
+
+
+\section{Tutorial 1 End}
+
+\section{Tutorial 2 Begin}
+
+\subsection{Introduction}
+
+ So in section \ref{Olist}, I will talk about Ordered List
+
+we Refer to \ref{OlBread} for bread
+
+we Refer to \ref{OlsubBW} for wheat bread
+
+So in section \ref{Ulist}, I will talk about Unordered List
+
+we Refer to \ref{UlBread} for bread
+
+we Refer to \ref{UlsubBW} for wheat bread
+
+\subsection{Ordered List\label{Olist}}
+\begin{enumerate}
+  \item Bread\label{OlBread}
+    \begin{enumerate}
+      \item Wheat\label{OlsubBW}
+      \item Maida
+    \end{enumerate}
+  \item Chicken
+  \item Water
+  \item Coriander 
+\end{enumerate}
+
+\subsection{Unordered List\label{Ulist}}
+\begin{itemize} 
+  \item Bread\label{UlBread}
+    \begin{itemize}
+      \item Wheat\label{UlsubBW}
+      \item Maida
+    \end{itemize}
+  \item Chicken
+  \item Water
+  \item Coriander 
+\end{itemize}
+
+\section{Tutorial 2 End}
+
+
+
+
+
+
+\end{document}
+

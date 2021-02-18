@@ -1,0 +1,57 @@
+\documentclass{article}
+
+\author{Anuj Nair} 
+\title{My First {\LaTeX} Document}
+\date{Last Monday}
+
+\begin{document}
+
+\maketitle
+
+
+\section{Introduction}
+
+ So in section \ref{Olist}, I will talk about Ordered List
+
+We Refer to bread at \ref{OlBread}
+
+We Refer to wheat bread at \ref{OlsubBW} 
+
+So in section \ref{Ulist}, I will talk about Unordered List
+
+\textbf{Obviously unordered it wont work}
+
+
+\textbf{DUMASS}
+
+We Refer to bread at \ref{UlBread}
+
+We Refer to wheat bread at \ref{UlsubBW} 
+
+\section{Ordered List\label{Olist}}
+\begin{enumerate}
+  \item Bread\label{OlBread}
+    \begin{enumerate}
+      \item Wheat\label{OlsubBW}
+      \item Maida
+    \end{enumerate}
+  \item Chicken
+  \item Water
+  \item Coriander 
+\end{enumerate}
+
+\section{Unordered List\label{Ulist}}
+\begin{itemize} 
+  \item Bread\label{UlBread}
+    \begin{itemize}
+      \item Wheat\label{UlsubBW}
+      \item Maida
+    \end{itemize}
+  \item Chicken
+  \item Water
+  \item Coriander 
+\end{itemize}
+
+
+\end{document}
+

@@ -1,0 +1,10 @@
+# Commands involved for groff_ms
+
+## To convert into postscript
+groff -ms <filename>.ms > <filename>.ps
+
+## To convert into pdf
+groff -ms <filename>.ms -T pdf > <filename>.pdf
+
+## To direct convertion of groff to pdf viewer 'zathura'
+groff -ms <filename>.ms -T pdf | zathura -
