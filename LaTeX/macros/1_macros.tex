@@ -1,0 +1,39 @@
+\documentclass{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx}
+
+\title{Learn Macros}
+\author{Anuj Nair}
+\date{}
+
+% macros
+\newcommand{\cint}{\int 0^\infty x dx}
+
+\newcommand{\pic}[3]{
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[scale=0.2]{#1}
+		\caption{#2}
+		\label{fig:#3}
+	\end{figure}
+}
+
+
+\begin{document}
+\maketitle
+
+\section{Introduction}
+
+  $\cint$
+
+	\pic{./1_barChart.png}{Bar Chart}{BarChart}
+
+ 
+				
+
+\section{Conclusion}
+We learned how to use macros in {\LaTeX}.
+
+
+\end{document}
