@@ -1,4 +1,4 @@
-.so macros
+.so 02_macros
 .TL
 An Illustrative groff documentation
 .AU
